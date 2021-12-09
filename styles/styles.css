@@ -1,0 +1,134 @@
+:root {
+    --black: rgba(0,0,0,0.8)
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+  
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 32px);
+    color: var(--black);
+    font-family: "Poppins", sans-serif;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1.4000000000000001px, rgba(0,0,0,0) 1.4000000000000001px);
+    background-size: 28px 28px;
+    background-repeat: repeat;
+    margin: 16px;
+}
+
+body {
+    background: radial-gradient(#B1BFD8, #6782B4);
+    background-position: center;
+    animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-size: 100%;
+    }
+    50% {
+        background-size: 400%;
+    }
+    100% {
+        background-size: 125%;
+    }
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.178);
+    width: 500px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.315);
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 50px;
+    text-align: center;
+    animation: scale .25s;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+        opacity: 0%;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 100%;
+    }
+}
+
+.card img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 16px;
+    margin: 8px 24px;
+}
+
+
+.card p {
+    padding: 0px 16px;
+}
+
+.card button {
+    text-align: center;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 16px;
+    color: var(--black);
+    font-size: 16px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: var(--black);
+    background-color: rgba(0,0,0,0);
+    font-size: 24px;
+    transform: scale(1);
+    transition: background-color .25s;
+    transition: transform .15s;
+}
+
+.card button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* needed this class to center the text on the buttons in chrome, not even sure why */
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
