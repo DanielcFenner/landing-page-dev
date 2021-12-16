@@ -25,6 +25,12 @@ a {
     margin: 16px;
 }
 
+@media only screen and (max-width: 600px) {
+    #wrapper {
+        align-items: flex-start;
+    }
+}
+
 body {
     background: radial-gradient(#B1BFD8, #6782B4);
     background-position: center;
