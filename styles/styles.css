@@ -102,14 +102,13 @@ body {
     width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    padding: 0px;
 }
 
 .buttons {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: wrap;
     justify-content: center;
-    gap: 16px;
+    gap: 1rem;
     margin: 8px 24px;
 }
 
@@ -120,7 +119,8 @@ body {
 
 .card button {
     text-align: center;
-    width: 70px;
+    width: 60px;
+    height: 60px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
