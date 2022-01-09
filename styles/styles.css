@@ -1,22 +1,17 @@
 :root {
     --black: rgba(0,0,0,0.8)
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    --pink1: hsl(318 25.0% 9.6%);
-    --pink2: hsl(319 32.2% 11.6%);
-    --pink3: hsl(319 41.0% 16.0%);
-    --pink4: hsl(320 45.4% 18.7%);
-    --pink5: hsl(320 49.0% 21.1%);
-    --pink6: hsl(321 53.6% 24.4%);
-    --pink7: hsl(321 61.1% 29.7%);
-    --pink8: hsl(322 74.9% 37.5%);
-    --pink9: hsl(322 65.0% 54.5%);
-    --pink10: hsl(323 72.8% 59.2%);
-    --pink11: hsl(325 90.0% 66.4%);
-    --pink12: hsl(322 90.0% 95.8%);
+    --plum1: hsl(292 90.0% 99.4%);
+    --plum2: hsl(300 100% 98.6%);
+    --plum3: hsl(299 71.2% 96.4%);
+    --plum4: hsl(299 62.0% 93.8%);
+    --plum5: hsl(298 56.1% 90.5%);
+    --plum6: hsl(296 51.3% 85.8%);
+    --plum7: hsl(295 48.2% 78.9%);
+    --plum8: hsl(292 47.7% 70.8%);
+    --plum9: hsl(292 45.0% 51.0%);
+    --plum10: hsl(292 50.2% 46.9%);
+    --plum11: hsl(292 60.0% 42.5%);
+    --plum12: hsl(291 66.0% 14.0%);
     --mauve1: hsl(246 6.0% 9.0%);
     --mauve2: hsl(240 5.1% 11.6%);
     --mauve3: hsl(241 5.0% 14.3%);
@@ -30,6 +25,11 @@
     --mauve11: hsl(253 4.0% 63.7%);
     --mauve12: hsl(256 6.0% 93.2%);
 }
+
+* {
+    padding: 0;
+    margin: 0;
+}
   
 a {
     color: inherit; /* blue colors for links too */
@@ -41,7 +41,7 @@ a {
     align-items: center;
     justify-content: center;
     min-height: calc(100vh - 32px);
-    color: var(--pink12);
+    color: var(--plum12);
     font-family: "Poppins", sans-serif;
     background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1.4000000000000001px, rgba(0,0,0,0) 1.4000000000000001px);
     background-size: 28px 28px;
@@ -125,10 +125,10 @@ body {
     flex-direction: column;
     border-radius: 10px;
     padding: 16px;
-    color: var(--pink12);
+    color: var(--plum12);
     font-size: 16px;
     border: none;
-    background-color: var(--pink9);
+    background-color: var(--plum9);
     font-size: 24px;
     transform: scale(1);
     transition: background-color .25s;
@@ -136,7 +136,7 @@ body {
 }
 
 .card button:hover {
-    background-color: var(--pink11);
+    background-color: var(--plum11);
     transform: scale(1.1);
     cursor: pointer;
 }
