@@ -87,7 +87,7 @@ body {
   gap: 24px;
   padding-bottom: 2rem;
   text-align: center;
-  animation: scale 0.25s;
+  animation: scale 0.5s;
 }
 
 @keyframes scale {
