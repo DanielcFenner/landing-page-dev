@@ -190,7 +190,7 @@ header a {
   align-items: center;
   text-align: center;
   gap: 1rem;
-  padding: 1rem;
+  padding: 1rem 0rem;
   padding-bottom: 3rem;
 }
 
@@ -209,6 +209,7 @@ header a {
   font-size: 1.25rem;
   animation: gradient 5s ease infinite;
   width: 100%;
+  text-align: center;
 }
 
 .hero-button-inner {
