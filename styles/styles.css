@@ -130,7 +130,7 @@ h1 {
 }
 
 .page3 {
-  height: 100vh;
+  height: 100%;
   background-color: var(--slate1);
   display: flex;
   gap: 1rem;
