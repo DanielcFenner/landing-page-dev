@@ -42,6 +42,10 @@
   color: var(--slate12);
 }
 
+body {
+  background-color: var(--slate1);
+}
+
 a {
   text-decoration: none;
 }
@@ -82,7 +86,7 @@ h1 {
   gap: 1rem;
   padding: 1rem;
   padding-top: 3rem;
-  height: 100vh;
+  height: 80vh;
   background-color: var(--blue1);
 }
 
@@ -109,7 +113,7 @@ h1 {
 }
 
 .page2 {
-  height: 100vh;
+  height: 80vh;
   background-color: var(--slate1);
   padding: 1rem;
   display: flex;
