@@ -120,12 +120,17 @@ header a {
 .page1 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
-  justify-content: center;
-  height: 80vh;
-  gap: 2rem;
+  gap: 1rem;
   padding: 1rem;
+  padding-bottom: 3rem;
   background-color: var(--blue1);
+}
+
+.page1 img {
+  border-radius: 999px;
+  width: 150px;
 }
 
 .hero-button {
@@ -139,6 +144,7 @@ header a {
   font-weight: 600;
   font-size: 1.25rem;
   animation: gradient 5s ease infinite;
+  width: 100%;
 }
 
 .page2 {
