@@ -76,6 +76,7 @@
   --slatelight12: hsl(206 24% 9%);
   font-size: 18px;
   font-family: "Poppins", sans-serif;
+  font-display: swap;
   color: var(--slate12);
 }
 
